@@ -5,17 +5,10 @@ class Shoe
    BRANDS = []
 
   def initialize(brand)
+    if BRANDS.include?(brand)
     @brand = brand
-    BRANDS << brand
-  end
-    
-    
-  def unique_brand
-    brand.each do |brand|
-      if BRANDS.include(brand)
-        @brand = brand
-      else BRANDS << brand
-      end
+    else 
+      BRANDS << brand
     end
   end
 
@@ -25,4 +18,3 @@ class Shoe
   end
     
 end
-
