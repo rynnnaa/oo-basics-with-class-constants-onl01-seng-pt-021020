@@ -10,7 +10,7 @@ class Shoe
   end
     
     
-  def
+  def unique_brand
     brand.each do |brand|
       if BRANDS.include(brand)
         @brand = brand
