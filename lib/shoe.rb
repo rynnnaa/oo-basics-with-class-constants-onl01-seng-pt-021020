@@ -10,7 +10,8 @@ class Shoe
   end
     
     
-  def brand.each do |brand|
+  def
+    brand.each do |brand|
       if BRANDS.include(brand)
         @brand = brand
       else BRANDS << brand
