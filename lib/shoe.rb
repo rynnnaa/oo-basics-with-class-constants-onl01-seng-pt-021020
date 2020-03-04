@@ -10,6 +10,7 @@ class Shoe
   end
     
     
+  def unique_brands
     if BRANDS.include(brand)
       @brand = brand
     else BRANDS << brand
