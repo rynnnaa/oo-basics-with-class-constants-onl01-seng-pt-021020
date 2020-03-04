@@ -9,6 +9,9 @@ class Shoe
     @brand = brand
     else 
       BRANDS << brand
+    if BRANDS.include(brand)
+      @brand = brand
+    else BRANDS << brand
     end
   end
 
