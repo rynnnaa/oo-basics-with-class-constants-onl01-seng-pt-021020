@@ -18,4 +18,3 @@ class Shoe
   end
     
 end
-
